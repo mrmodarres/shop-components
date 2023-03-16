@@ -3,6 +3,9 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      backgroundImage: {
+        "register-bg": "url('assets/image/register-image.svg')",
+      },
       borderRadius: {
         "4xl": "2rem",
         "5xl": "2.5rem",
